@@ -1,0 +1,5 @@
+services:
+  byke-hype:
+    image: byke-hype:latest
+    ports:
+      - 8080:8080
