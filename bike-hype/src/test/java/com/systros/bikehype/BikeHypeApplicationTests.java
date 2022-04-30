@@ -1,10 +1,10 @@
-package com.systros.bykehype;
+package com.systros.bikehype;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BykeHypeApplicationTests {
+class BikeHypeApplicationTests {
 
 	@Test
 	void contextLoads() {

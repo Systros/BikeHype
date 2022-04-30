@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "esModuleInterop": true,
+      "jsx": "react-jsx",
+      "module": "esnext",
+      "noEmit": true,
+      "moduleResolution": "node",
+      "isolatedModules": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "lib": [
+        "dom",
+        "esnext"
+      ],
+      "strict": true,
+      "sourceMap": true,
+      "target": "esnext",
+      "resolveJsonModule": true
+    },
+    "include": [
+      "src/**/*"
+    ]
+  }

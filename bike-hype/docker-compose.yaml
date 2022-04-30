@@ -1,0 +1,5 @@
+services:
+  bike-hype:
+    image: bike-hype:latest
+    ports:
+      - 8080:8080
