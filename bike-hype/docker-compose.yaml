@@ -3,3 +3,15 @@ services:
     image: bike-hype:latest
     ports:
       - 8080:8080
+
+  postgresql:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: test
+      POSTGRES_USER: test
+    volumes:
+      - db:/var/lib/postgresql/data
+
+  volumes:
+    - db
